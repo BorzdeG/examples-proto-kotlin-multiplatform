@@ -1,4 +1,4 @@
-import Messages.MyData
+import demo.proto2.GeneratedProto2.MyData
 
 fun main(args: Array<String>) {
   val myData = with(MyData.newBuilder()) {

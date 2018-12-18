@@ -1,5 +1,9 @@
 syntax = 'proto2';
 
+package demo.proto2;
+
+option java_outer_classname = "GeneratedProto2";
+
 message MyData {
   required string field1 = 1;
   optional bool field2 = 2;

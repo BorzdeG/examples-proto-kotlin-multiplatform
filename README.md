@@ -12,9 +12,11 @@
 
 # Run
 
-JDK 8: `./jvmw ./gradlew -s clean check`
+system JDK: `./gradlew -s clean check`
 
-JDK 10: `JVM_VERSION=10 ./jvmw ./gradlew -s clean check`
+OpenJDK 8 (use jvm wrapper): `./jvmw ./gradlew -s clean check`
+
+OpenJDK 10 (use jvm wrapper): `JVM_VERSION=10 ./jvmw ./gradlew -s clean check`
 
 # Uses
 
