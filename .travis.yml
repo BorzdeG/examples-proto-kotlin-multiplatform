@@ -5,4 +5,4 @@ os:
   - linux
 
 script:
-  - ./jvmw ./gradlew -i check || travis_terminate 1
+  - ./jvmw ./gradlew -s check || travis_terminate 1
