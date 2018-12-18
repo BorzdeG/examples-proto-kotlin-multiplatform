@@ -5,6 +5,7 @@ buildscript {
 
   repositories {
     jcenter()
+    mavenCentral()
   }
   dependencies {
     classpath(kotlin("gradle-plugin", kotlinVersion))
@@ -20,10 +21,12 @@ allprojects {
   buildscript {
     repositories {
       jcenter()
+      mavenCentral()
     }
   }
   repositories {
     jcenter()
+    mavenCentral()
   }
 
   val kotlinVersion = extra["kotlin.version"] as String
