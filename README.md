@@ -8,10 +8,13 @@
 ![Support Mac OS](https://img.shields.io/badge/support%20OS-Mac%20OS-green.svg?style=flat-square)
 
 ![Support OpenJDK 8](https://img.shields.io/badge/support%20OpenJDK-8-green.svg?style=flat-square)
+![Support OpenJDK 10](https://img.shields.io/badge/support%20OpenJDK-10-green.svg?style=flat-square)
 
 # Run
 
-`./jvmw ./gradlew -s clean check`
+JDK 8: `./jvmw ./gradlew -s clean check`
+
+JDK 10: `JVM_VERSION=10 ./jvmw ./gradlew -s clean check`
 
 # Uses
 

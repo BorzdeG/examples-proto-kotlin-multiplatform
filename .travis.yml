@@ -1,8 +1,15 @@
 language: generic
 
+env:
+  - JVM_VERSION=8
+  - JVM_VERSION=10
+
 os:
   - osx
   - linux
+
+before_script:
+  - JVMW_DEBUG=Y ./jvmw java -version
 
 script:
   - ./jvmw ./gradlew -s check || travis_terminate 1

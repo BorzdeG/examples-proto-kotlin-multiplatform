@@ -41,8 +41,7 @@ allprojects {
 
           "org.jetbrains.kotlin" -> useVersion(kotlinVersion)
 
-          "org.slf4j"            -> useVersion("1.7.25")
-          "ch.qos.logback"       -> useVersion("1.2.3")
+          "javax.annotation"     -> useVersion("1.3.2")
         }
       }
     }

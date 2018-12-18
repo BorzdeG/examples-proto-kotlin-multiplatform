@@ -3,7 +3,9 @@
     <words>
       <w>grpc</w>
       <w>kotlintest</w>
+      <w>multiplatform</w>
       <w>protobuf</w>
+      <w>protoc</w>
     </words>
   </dictionary>
 </component>

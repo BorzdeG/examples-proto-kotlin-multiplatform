@@ -13,7 +13,7 @@ buildscript {
     classpath("com.google.protobuf:protobuf-gradle-plugin:+")
   }
 }
-//9J+ZrvNW
+
 apply {
   plugin<JavaPlugin>()
   plugin<ProtobufPlugin>()
@@ -25,7 +25,7 @@ dependencies {
   "compile"("io.grpc:grpc-protobuf")
 
   if (JavaVersion.current().isJava9Compatible) {
-    "implementation"("javax.annotation:javax.annotation-api:+")
+    "compile"("javax.annotation:javax.annotation-api")
   }
 }
 
