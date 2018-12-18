@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="gradle-kotlin-dsl-proto.proto.main" target="1.8" />
+      <module name="gradle-kotlin-dsl-proto.proto.test" target="1.8" />
+      <module name="gradle-kotlin-dsl-proto.use-in-kotlin-server.main" target="1.8" />
+      <module name="gradle-kotlin-dsl-proto.use-in-kotlin-server.test" target="1.8" />
+      <module name="proto-kotlin-multiplatform.proto2-server-undertow-jvm.main" target="1.8" />
+      <module name="proto-kotlin-multiplatform.proto2-server-undertow-jvm.test" target="1.8" />
+      <module name="proto-kotlin-multiplatform.proto2.main" target="1.8" />
+      <module name="proto-kotlin-multiplatform.proto2.test" target="1.8" />
+      <module name="proto-kotlin-multiplatform.use-in-kotlin-server.main" target="1.8" />
+      <module name="proto-kotlin-multiplatform.use-in-kotlin-server.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

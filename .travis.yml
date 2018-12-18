@@ -1,0 +1,8 @@
+language: generic
+
+os:
+  - osx
+  - linux
+
+script:
+  - ./jvmw ./gradlew -i check || travis_terminate 1
